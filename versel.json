@@ -1,0 +1,12 @@
+{
+    "rewrites": [
+        {
+            "source": "/components/index.html",
+            "destination": "/components/index.html"
+        },
+        {
+            "source": "/style/(.*)",
+            "destination": "/style/$1"
+        }
+    ]
+}
